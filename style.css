@@ -1,0 +1,43 @@
+.item {
+    position: absolute;
+    left: 50%;
+	width: 25px;
+	height: 25px;
+	background: #FF4500;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#wrapper {
+    background:url("bg3.jpg");
+    position: absolute;
+    width: 660px;
+    height:600px;
+    border:10px black solid;
+    position: absolute;
+    left:25%;
+}
+.start {
+    border-radius:  5px;
+    display: inline-block;
+    background:green;
+    cursor: pointer;
+
+}
+.pause {
+    
+    border-radius:  5px;
+background: red;
+    display: inline-block;
+    cursor: pointer;
+}
+#hat {
+  
+    height:75px;
+    width: 67px;
+    bottom:70px;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
